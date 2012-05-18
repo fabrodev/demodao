@@ -1,1 +1,25 @@
-This file was created by IntelliJ IDEA 10.5.4 for binding GitHub repository
+Projet example de ce qu ' il peut etrefait avec Spring
+
+cf la configuration des acces aux bdd dans src/ressources/db.properties
+#HSQL Options
+#db.username=sa
+#db.password=
+#db.driver=org.hsqldb.jdbcDriver
+#db.url=jdbc:hsqldb:mem:app-db
+#db.dialect=org.hibernate.dialect.HSQLDialect
+
+
+#MySQL Options
+#db.username=
+#db.password=
+#db.url=jdbc:mysql://127.0.0.1:3306/dbname
+#db.dialect=org.hibernate.dialect.MySQL5Dialect
+#db.driver=com.mysql.jdbc.Driver
+
+ 
+#Postgres Options
+db.username=
+db.password=
+db.driver=org.postgresql.Driver
+db.url=jdbc:postgresql://127.0.0.1:5432/postgres
+db.dialect=org.hibernate.dialect.PostgreSQLDialect
